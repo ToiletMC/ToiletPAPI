@@ -1,6 +1,7 @@
 # plugin-ToiletPAPI
 
-为了更好的性能，抛弃 JavaScript。
+为了更好的性能，抛弃 JavaScript！  
+为什么要从 [ToiletCore](https://github.com/ToiletMC/ToiletCore) 中独立出来？因为这样可以更好地使用 `/papi reload` 热加载。
 
 ### 占位符列表：
 
