@@ -14,13 +14,13 @@ public class ToiletPAPI extends PlaceholderExpansion {
         String beforeUnderscore = params.substring(0, underscoreIndex);
         String afterUnderscore = params.substring(underscoreIndex + 1);
 
-        if (beforeUnderscore.equals("emoji")) {
-            return handleEmoji(player, afterUnderscore);
-        } else if (beforeUnderscore.equals("info")) {
-            return handleInfo(player, afterUnderscore);
-        }
+        return switch (beforeUnderscore) {
+            case "emoji" -> handleEmoji(player, afterUnderscore);
+            case "info" -> handleInfo(player, afterUnderscore);
+            case "condition" -> handleCondition(player, afterUnderscore);
+            default -> null;
+        };
 
-        return null;
     }
 
     private String handleEmoji(Player player, String params) {
@@ -46,6 +46,10 @@ public class ToiletPAPI extends PlaceholderExpansion {
         return null;
     }
 
+    private String handleCondition(Player player, String params) {
+        return ConditionUtil.canUseDataCard(player);
+    }
+
     @Override
     public @NotNull String getIdentifier() {
         return "toilet";
@@ -58,6 +62,6 @@ public class ToiletPAPI extends PlaceholderExpansion {
 
     @Override
     public @NotNull String getVersion() {
-        return "1.0.0";
+        return "${version}";
     }
 }
