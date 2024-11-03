@@ -42,7 +42,7 @@ public class ConditionUtil {
         LandsIntegration landsApi = LandsIntegration.of(Objects.requireNonNull(Bukkit.getPluginManager().getPlugin("ToiletCore")));
         LandWorld world = landsApi.getWorld(player.getWorld());
         if (world == null) return TRUE;
-        boolean hasRoleFlag = world.hasRoleFlag(landsApi.getLandPlayer(player.getUniqueId()), player.getLocation(), Flags.INTERACT_GENERAL, null, false);
+        boolean hasRoleFlag = world.hasRoleFlag(landsApi.getLandPlayer(player.getUniqueId()), player.getLocation(), Flags.BLOCK_PLACE, null, false);
         if (hasRoleFlag) return TRUE;
 
         return FALSE;

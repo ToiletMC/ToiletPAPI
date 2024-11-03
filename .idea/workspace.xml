@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac751344-de4b-4b3d-a268-3332ada8b3a2" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/toiletmc/toiletpapi/ConditionUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/toiletmc/toiletpapi/ToiletPAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/toiletmc/toiletpapi/ToiletPAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/toiletmc/toiletpapi/ConditionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/toiletmc/toiletpapi/ConditionUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +54,12 @@
     &quot;assignee&quot;: &quot;XXY233&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ToiletMC/ToiletPAPI.git",
-    "accountId": "1587f246-f181-4e65-97d8-844ce8961e3a"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ToiletMC/ToiletPAPI.git&quot;,
+    &quot;accountId&quot;: &quot;1587f246-f181-4e65-97d8-844ce8961e3a&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -157,7 +149,8 @@
       <workItem from="1730190142010" duration="1000" />
       <workItem from="1730562815482" duration="630000" />
       <workItem from="1730563452926" duration="5381000" />
-      <workItem from="1730570817231" duration="251000" />
+      <workItem from="1730570817231" duration="287000" />
+      <workItem from="1730573369430" duration="628000" />
     </task>
     <servers />
   </component>
