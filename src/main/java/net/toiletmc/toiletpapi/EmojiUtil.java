@@ -11,7 +11,7 @@ public class EmojiUtil {
             if (msptLast10Secs <= 80) {
                 return "&a\uD83C\uDF11";
             } else {
-                return "&a\uD83C\uDF11&f［伪］";
+                return "&2\uD83C\uDF11";
             }
         } else if (tpsLast10Secs >= 15) {
             return "&6\uD83C\uDF11";
@@ -20,7 +20,7 @@ public class EmojiUtil {
         } else if (tpsLast10Secs >= 6) {
             return "&4\uD83C\uDF11";
         } else {
-            return "`&4\uD83C\uDF11&f［爆］";
+            return "`&4\uD83D\uDC80";
         }
     }
 

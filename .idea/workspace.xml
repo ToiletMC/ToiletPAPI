@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ac751344-de4b-4b3d-a268-3332ada8b3a2" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/toiletmc/toiletpapi/ConditionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/toiletmc/toiletpapi/ConditionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/toiletmc/toiletpapi/EmojiUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/toiletmc/toiletpapi/EmojiUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +60,10 @@
     &quot;accountId&quot;: &quot;1587f246-f181-4e65-97d8-844ce8961e3a&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -72,6 +76,7 @@
     &quot;Gradle.plugin-ToiletPAPI [clean build].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.下载源代码.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -125,8 +130,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
       </set>
     </attachedChunks>
   </component>
@@ -151,6 +156,8 @@
       <workItem from="1730563452926" duration="5381000" />
       <workItem from="1730570817231" duration="287000" />
       <workItem from="1730573369430" duration="628000" />
+      <workItem from="1743491584762" duration="705000" />
+      <workItem from="1748705960781" duration="730000" />
     </task>
     <servers />
   </component>
