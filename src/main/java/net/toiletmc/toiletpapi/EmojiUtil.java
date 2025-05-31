@@ -9,16 +9,16 @@ public class EmojiUtil {
         if (tpsLast10Secs >= 18) {
             double msptLast10Secs = sparkHelper.getLast10SecsMSPT();
             if (msptLast10Secs <= 80) {
-                return "&a\uD83C\uDF11";
+                return "&a✳";
             } else {
-                return "&2\uD83C\uDF11";
+                return "&2✳";
             }
         } else if (tpsLast10Secs >= 15) {
-            return "&6\uD83C\uDF11";
+            return "&6✳";
         } else if (tpsLast10Secs >= 10) {
-            return "&c\uD83C\uDF11";
+            return "&c✳";
         } else if (tpsLast10Secs >= 6) {
-            return "&4\uD83C\uDF11";
+            return "&4✳";
         } else {
             return "`&4\uD83D\uDC80";
         }

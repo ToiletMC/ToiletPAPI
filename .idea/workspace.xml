@@ -60,10 +60,10 @@
     &quot;accountId&quot;: &quot;1587f246-f181-4e65-97d8-844ce8961e3a&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -158,6 +158,7 @@
       <workItem from="1730573369430" duration="628000" />
       <workItem from="1743491584762" duration="705000" />
       <workItem from="1748705960781" duration="730000" />
+      <workItem from="1748706824286" duration="491000" />
     </task>
     <servers />
   </component>
