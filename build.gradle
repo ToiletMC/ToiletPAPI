@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'net.toiletmc'
-version = '1.1.0'
+version = '1.2.0'
 
 compileJava.options.encoding = "UTF-8"
 compileTestJava.options.encoding = "UTF-8"
@@ -24,6 +24,7 @@ dependencies {
     compileOnly 'org.spigotmc:spigot-api:1.20-R0.1-SNAPSHOT'
     compileOnly 'com.sk89q.worldguard:worldguard-bukkit:7.0.12'
     compileOnly "com.github.angeschossen:LandsAPI:7.10.2"
+    compileOnly "com.github.MilkBowl:VaultAPI:1.7"
     testImplementation platform('org.junit:junit-bom:5.9.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
