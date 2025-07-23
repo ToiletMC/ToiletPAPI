@@ -21,13 +21,13 @@ public class SparkHelper {
         }
     }
 
-    public double getLast10SecsTPS() {
+    public double getLast5SecsTPS() {
         if (spark == null) {
             return 0;
         }
 
         DoubleStatistic<StatisticWindow.TicksPerSecond> tps = spark.tps();
-        return tps.poll(StatisticWindow.TicksPerSecond.SECONDS_10);
+        return tps.poll(StatisticWindow.TicksPerSecond.SECONDS_5);
     }
 
     public double getLast10SecsMSPT() {

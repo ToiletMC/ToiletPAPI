@@ -5,7 +5,7 @@ import org.bukkit.entity.Player;
 
 public class EmojiUtil {
     public static String forServerStatus(SparkHelper sparkHelper) {
-        double tpsLast10Secs = sparkHelper.getLast10SecsTPS();
+        double tpsLast10Secs = sparkHelper.getLast5SecsTPS();
         if (tpsLast10Secs >= 18) {
             double msptLast10Secs = sparkHelper.getLast10SecsMSPT();
             if (msptLast10Secs <= 80) {
