@@ -37,7 +37,6 @@ public class SparkHelper {
 
         GenericStatistic<DoubleAverageInfo, StatisticWindow.MillisPerTick> msptInfo = spark.mspt();
         return msptInfo.poll(StatisticWindow.MillisPerTick.SECONDS_10).percentile95th();
-
     }
 
     public double getLast1MinMSPT() {
