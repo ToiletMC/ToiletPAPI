@@ -15,11 +15,15 @@ public class BalanceFormatter {
             BalanceSuffix suffix = suffixes.get(i);
             if (balance >= suffix.threshold()) {
                 double formattedBalance = balance / suffix.threshold();
-                return String.format("%.1f%s", formattedBalance, suffix.suffixName());
+                // 截断到1位小数（乘以10，使用Math.floor，除以10）
+                formattedBalance = Math.floor(formattedBalance * 10) / 10;
+                return formattedBalance + suffix.suffixName();
             }
         }
 
-        // 如果没有符合条件的，默认返回保留1位小数的格式
-        return String.format("%.1f", balance);
+        // 如果没有符合条件的，默认返回截断后的1位小数格式
+        balance = Math.floor(balance * 10) / 10;
+        return String.valueOf(balance);
     }
 }
+
