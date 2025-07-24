@@ -81,7 +81,15 @@ public class ToiletPAPI extends PlaceholderExpansion implements Configurable {
         if (params.equals("worldtime")) {
             return EmojiUtil.forWorldtime(player) + " &7" + OtherUtil.ticksToTime(player.getWorld().getTime()) + "&r";
         } else if (params.equals("mspt")) {
-            return String.format("%.1f", sparkHelper.getLast10SecsMSPT());
+            double mspt = sparkHelper.getLast10SecsMSPT();
+            if (mspt >= 100) {
+                return String.format("§c%.1f§r", mspt);
+            } else if (mspt >= 50) {
+                return String.format("%.1f", mspt);
+            } else {
+                return String.format("§a%.1f§r", mspt);
+            }
+
         }
         return null;
     }
